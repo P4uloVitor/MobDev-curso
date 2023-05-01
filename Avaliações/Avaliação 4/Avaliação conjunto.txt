@@ -1,39 +1,61 @@
 01) O que é um conjunto em Dart?
+Uma coleção não ordenada de itens exclusivos.
 
 02) Como criar um conjunto vazio em Dart?
+var conjunto = <String>{};
 
 03) Como criar um conjunto com elementos em Dart?
+var conjunto = <String>{};
+conjunto.add('elemento1');
+conjunto.add('elemento2');
 
 04) Qual a diferença entre um conjunto e uma lista em Dart?
+Conjunto é uma coleção não ordenada de objetos exclusivos, enquanto uma lista é uma coleção ordenada
 
 05) Como adicionar um elemento a um conjunto em Dart?
+Usando o método add()
 
 06) Como remover um elemento de um conjunto em Dart?
+Usando o método remove()
 
 07) Como verificar se um conjunto contém um determinado elemento em Dart?
+Usando o método contains()
 
 08) Como verificar se um conjunto é vazio em Dart?
+Usando a propriedade isEmpty
 
 09) Como unir dois conjuntos em Dart?
+Usando o operador union()
 
 10) Como obter a interseção de dois conjuntos em Dart?
+Usando o método intersection()
 
 11) Como obter a diferença entre dois conjuntos em Dart?
+Usando o método difference()
 
 12) Como verificar se um conjunto é subconjunto de outro conjunto em Dart?
+Usando o método containsAll()
 
 13) Como verificar se dois conjuntos são iguais em Dart?
+Usando o método containsAll()
 
 14) Como criar um conjunto a partir de uma lista em Dart?
+Usando o construtor Set.from()
 
 15) Como criar uma lista a partir de um conjunto em Dart?
+Usando o construtor List.from()
 
 16) Como transformar um conjunto em uma lista de strings em Dart?
+Usando o construtor List.from()
 
 17) Como calcular a união de vários conjuntos em Dart?
+Usando o método union()
 
 18) Como calcular a interseção de vários conjuntos em Dart?
+Usando o método intersection()
 
 19) Como verificar se dois conjuntos são disjuntos em Dart?
+Usando o método intersection(). Se a interseção dos dois conjuntos for vazia, então eles são disjuntos
 
 20) Como remover todos os elementos duplicados de uma lista usando um conjunto em Dart?
+Criando um conjunto a partir da lista e depois criar uma nova lista a partir do conjunto

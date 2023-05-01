@@ -1,0 +1,59 @@
+01) O que é Fluxo de Controle em Dart?
+Permite que você controle o fluxo de execução do seu código
+
+02) Quais são as três estruturas básicas de Fluxo de Controle em Dart?
+if/else, for e while
+
+03) O que é uma instrução if em Dart?
+Usado para executar um trecho de código caso uma expressão lógica seja verdadeira
+
+04) O que é uma instrução if-else em Dart?
+Usado para executar um trecho de código caso uma expressão lógica seja verdadeira e outro trecho caso ela seja falsa
+
+05) O que é uma instrução switch em Dart?
+Usado para selecionar um dos muitos blocos de código a serem executados
+
+06) Como usar a instrução switch em Dart?
+Colocando os casos a serem analisados
+
+07) O que é uma instrução for em Dart?
+Usado para repetir um bloco de código várias vezes
+
+08) Como usar a instrução for em Dart?
+for (inicialização; condição; incremento) { }
+
+09) O que é uma instrução while em Dart?
+Usado para repetir um bloco de código enquanto uma expressão lógica for verdadeira
+
+10) Como usar a instrução while em Dart?
+while (condição) { }
+
+11) O que é uma instrução do-while em Dart?
+Usado para executar um bloco de código pelo menos uma vez, e então repeti-lo enquanto uma condição for verdadeira
+
+12) Como usar a instrução do-while em Dart?
+Colocando a expressão lógica no do e o bloco de código no while
+
+13) O que é uma instrução break em Dart?
+Usado para interromper a execução do loop mais próximo ou switch
+
+14) Como usar a instrução break em Dart?
+Colocando depois do bloco de código
+
+15) O que é uma instrução continue em Dart?
+Usado para pular uma iteração no loop mais próximo
+
+16) Como usar a instrução continue em Dart?
+Colocando depois do bloco de código
+
+17) O que é uma instrução try-catch em Dart?
+Usado para lidar com exceções em seu código
+
+18) Como usar a instrução try-catch em Dart?
+Colocando no try a parte do código que pode acontecer a excessão e no catch o que deve ser executado caso a excessão aconteça 
+
+19) O que é uma instrução finally em Dart?
+A instrução finally é usada para executar um bloco de código independentemente se ocorreu ou não uma exceção no bloco try
+
+20) Como usar a instrução finally em Dart?
+Depois do catch coloca dentro do finally o que vai ser executado

@@ -1,39 +1,62 @@
 01) O que é um mapa em Dart?
+São coleções de dados organizados em um formato chave-valor
 
 02) Como criar um mapa vazio em Dart?
+Map<String, dynamic> mapaVazio = {};
 
 03) Como criar um mapa com elementos em Dart?
+Map<String, dynamic> mapaComElementos = {
+  'chave1': 'valor1',
+  'chave2': 'valor2',
+  'chave3': 'valor3',
+};
 
 04) Qual a diferença entre uma lista e um mapa em Dart?
+Uma lista é uma coleção ordenada de elementos que podem ser acessados por índice, enquanto um mapa é uma coleção de pares chave-valor que podem ser acessados por chave
 
 05) Como adicionar um elemento a um mapa em Dart?
+mapaComElementos['chave4'] = 'valor4';
 
 06) Como remover um elemento de um mapa em Dart?
+mapaComElementos.remove('chave4');
 
 07) Como verificar se um mapa contém uma determinada chave em Dart?
+Usando o método containsKey()
 
 08) Como verificar se um mapa é vazio em Dart?
+Usando o método isEmpty()
 
 09) Como acessar o valor de uma chave em um mapa em Dart?
+print(mapaComElementos['chave1']);
 
 10) Como alterar o valor de uma chave em um mapa em Dart?
+mapaComElementos['chave1'] = 'novoValor';
 
 11) Como obter todas as chaves de um mapa em Dart?
+Usando o método keys
 
 12) Como obter todos os valores de um mapa em Dart?
+Usando o método values
 
 13) Como verificar se duas chaves em um mapa são iguais em Dart?
+Usando o operador ==
 
 14) Como criar um mapa a partir de duas listas em Dart?
+Usando o método Map.fromIterables()
 
 15) Como criar uma lista de chaves a partir de um mapa em Dart?
+Usando o método keys.toList()
 
 16) Como criar uma lista de valores a partir de um mapa em Dart?
+Usando o método values.toList()
 
 17) Como transformar um mapa em uma lista de pares chave-valor em Dart?
+Usando o método entries.toList()
 
 18) Como remover todos os elementos de um mapa em Dart?
+Usando o método clear()
 
 19) Como calcular o tamanho de um mapa em Dart?
-
+Usando o método length
 20) Como verificar se dois mapas são iguais em Dart?
+Usando o método mapEquals()

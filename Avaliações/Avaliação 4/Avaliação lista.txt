@@ -1,39 +1,59 @@
 1) O que é uma lista em Dart?
+Estrutura de dados que permite armazenar dados em sequência
 
 2) Como criar uma lista vazia em Dart?
+List<int> listaVazia = [];
 
 3) Como criar uma lista com elementos em Dart?
+List<int> listaComElementos = [1, 2, 3];
 
 4) Qual a diferença entre uma lista e um conjunto em Dart?
+Lista é uma coleção ordenada de elementos que permite duplicatas e um conjunto é uma coleção não ordenada
 
 5) Como acessar um elemento específico de uma lista em Dart?
+Usando o operador [] e passar o índice do elemento que deseja acessar
 
 6) Como adicionar um elemento ao final de uma lista em Dart?
+Usando o método add()
 
 7) Como inserir um elemento em uma posição específica de uma lista em Dart?
+Usando o método insert()
 
 8) Como remover um elemento de uma lista em Dart?
+Usando o método remove()
 
 9) Como verificar se uma lista contém um determinado elemento em Dart?
+Usando o método contains()
 
 10) Como ordenar uma lista em ordem crescente em Dart?
+Usando o método sort()
 
 11) Como ordenar uma lista em ordem decrescente em Dart?
+Usando o método sort() e passar uma função de comparação
 
 12) Como copiar uma lista em Dart?
+Usando o construtor da classe List
 
 13) Como verificar se duas listas são iguais em Dart?
+Usando o método equals()
 
 14) Como criar uma lista a partir de outra lista em Dart?
+Usando o construtor da classe List e passar a outra lista como argumento
 
 15) Como transformar uma lista em uma lista de strings em Dart?
+Usando o método map() e passar a função toString() como argumento
 
 16) Como calcular a soma dos elementos de uma lista em Dart?
+Usando o método fold()
 
 17) Como calcular a média dos elementos de uma lista em Dart?
+Usando o método reduce()
 
 18) Como calcular o valor máximo e mínimo de uma lista em Dart?
+Usando os métodos reduce() e fold()
 
 19) Como contar quantas vezes um elemento aparece em uma lista em Dart?
+Usando o método where() para filtrar os elementos iguais ao elemento desejado e depois usar o método length para contar quantos elementos foram filtrados
 
 20) Como remover todos os elementos duplicados de uma lista em Dart?
+Criando um conjunto a partir da lista usando o construtor Set.from(). Em seguida, converta o conjunto novamente em uma lista usando o método toList()
